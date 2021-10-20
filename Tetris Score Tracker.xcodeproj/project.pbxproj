@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B8317A4271FBF1D00521DF7 /* DateStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8317A3271FBF1D00521DF7 /* DateStatsView.swift */; };
+		4B8317A6271FE03700521DF7 /* StartingLevelPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8317A5271FE03700521DF7 /* StartingLevelPickerView.swift */; };
 		4BB0EE44271E74E700F22B2E /* Tetris_Score_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB0EE43271E74E700F22B2E /* Tetris_Score_TrackerApp.swift */; };
 		4BB0EE46271E74E700F22B2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB0EE45271E74E700F22B2E /* ContentView.swift */; };
 		4BB0EE48271E74EA00F22B2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BB0EE47271E74EA00F22B2E /* Assets.xcassets */; };
 		4BB0EE4B271E74EA00F22B2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BB0EE4A271E74EA00F22B2E /* Preview Assets.xcassets */; };
 		4BB0EE4D271E74EA00F22B2E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB0EE4C271E74EA00F22B2E /* Persistence.swift */; };
 		4BB0EE50271E74EA00F22B2E /* Tetris_Score_Tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BB0EE4E271E74EA00F22B2E /* Tetris_Score_Tracker.xcdatamodeld */; };
+		4BB0EE57271E75C800F22B2E /* AddScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB0EE56271E75C800F22B2E /* AddScoreView.swift */; };
+		4BB0EE59271E75F400F22B2E /* TodayStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB0EE58271E75F400F22B2E /* TodayStatsView.swift */; };
+		4BB0EE5B271E7B9B00F22B2E /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB0EE5A271E7B9B00F22B2E /* UserSettings.swift */; };
+		4BB0EE5D271E7C9200F22B2E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB0EE5C271E7C9200F22B2E /* SettingsView.swift */; };
+		4BB0EE5F271E7D0600F22B2E /* playStylePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB0EE5E271E7D0600F22B2E /* playStylePickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B8317A3271FBF1D00521DF7 /* DateStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateStatsView.swift; sourceTree = "<group>"; };
+		4B8317A5271FE03700521DF7 /* StartingLevelPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingLevelPickerView.swift; sourceTree = "<group>"; };
 		4BB0EE40271E74E700F22B2E /* Tetris Score Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tetris Score Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BB0EE43271E74E700F22B2E /* Tetris_Score_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tetris_Score_TrackerApp.swift; sourceTree = "<group>"; };
 		4BB0EE45271E74E700F22B2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +32,11 @@
 		4BB0EE4A271E74EA00F22B2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4BB0EE4C271E74EA00F22B2E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		4BB0EE4F271E74EA00F22B2E /* Tetris_Score_Tracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tetris_Score_Tracker.xcdatamodel; sourceTree = "<group>"; };
+		4BB0EE56271E75C800F22B2E /* AddScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddScoreView.swift; sourceTree = "<group>"; };
+		4BB0EE58271E75F400F22B2E /* TodayStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayStatsView.swift; sourceTree = "<group>"; };
+		4BB0EE5A271E7B9B00F22B2E /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		4BB0EE5C271E7C9200F22B2E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		4BB0EE5E271E7D0600F22B2E /* playStylePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playStylePickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +71,13 @@
 			children = (
 				4BB0EE43271E74E700F22B2E /* Tetris_Score_TrackerApp.swift */,
 				4BB0EE45271E74E700F22B2E /* ContentView.swift */,
+				4BB0EE5E271E7D0600F22B2E /* playStylePickerView.swift */,
+				4B8317A5271FE03700521DF7 /* StartingLevelPickerView.swift */,
+				4BB0EE5C271E7C9200F22B2E /* SettingsView.swift */,
+				4BB0EE5A271E7B9B00F22B2E /* UserSettings.swift */,
+				4BB0EE56271E75C800F22B2E /* AddScoreView.swift */,
+				4BB0EE58271E75F400F22B2E /* TodayStatsView.swift */,
+				4B8317A3271FBF1D00521DF7 /* DateStatsView.swift */,
 				4BB0EE47271E74EA00F22B2E /* Assets.xcassets */,
 				4BB0EE4C271E74EA00F22B2E /* Persistence.swift */,
 				4BB0EE4E271E74EA00F22B2E /* Tetris_Score_Tracker.xcdatamodeld */,
@@ -143,9 +164,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BB0EE59271E75F400F22B2E /* TodayStatsView.swift in Sources */,
+				4BB0EE5D271E7C9200F22B2E /* SettingsView.swift in Sources */,
+				4BB0EE57271E75C800F22B2E /* AddScoreView.swift in Sources */,
+				4B8317A6271FE03700521DF7 /* StartingLevelPickerView.swift in Sources */,
 				4BB0EE4D271E74EA00F22B2E /* Persistence.swift in Sources */,
 				4BB0EE46271E74E700F22B2E /* ContentView.swift in Sources */,
+				4BB0EE5B271E7B9B00F22B2E /* UserSettings.swift in Sources */,
 				4BB0EE50271E74EA00F22B2E /* Tetris_Score_Tracker.xcdatamodeld in Sources */,
+				4BB0EE5F271E7D0600F22B2E /* playStylePickerView.swift in Sources */,
+				4B8317A4271FBF1D00521DF7 /* DateStatsView.swift in Sources */,
 				4BB0EE44271E74E700F22B2E /* Tetris_Score_TrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
